@@ -10,7 +10,8 @@ summary: 你不需要有任何 React 的基礎知識就能使用這份學習指�
 
 在這份學習指南中，我們會練習做一個小遊戲。也許你會很想跳過這份指南，因為你不是遊戲開發者 — 但請試著跟著做做看。在這份學習指南中，你所學到的技術是你做任何 React 應用程式的基礎，掌握基礎後會讓你對 React 有更深入的了解。
 
-> 這份學習指南是設計給那些喜歡從做中學的人們。如果你比較喜歡從零開始學習概念的話，請參考我們的逐步教學。你可能會發現本篇指南和教學課程其實是相輔相成的。
+> Tip
+> 這份學習指南是設計給那些喜歡從做中學的人們。如果你比較喜歡從零開始學習概念的話，請參考我們的[逐步教學](https://zh-hant.reactjs.org/docs/hello-world.html)。你可能會發現本篇指南和教學課程其實是相輔相成的。
 
 這份指南分成以下幾個部分：
 
@@ -20,3 +21,19 @@ summary: 你不需要有任何 React 的基礎知識就能使用這份學習指�
 - [加入時間旅行](https://zh-hant.reactjs.org/tutorial/tutorial.html#adding-time-travel)會讓你對 React 獨特的優點有更深的見解。
 
 你不需要一次就完成所有的部分才能從這份學習指南中獲益。試著練習，越多越好 — 即使只有一兩個部分。
+
+### 我們要做什麼？
+
+在這份學習指南中，我們會教你如何用 React 做一個互動式的圈圈叉叉小遊戲。
+
+在這裡你可以看到我們將會做什麼：[完成結果](https://codepen.io/gaearon/pen/gWWZgR?editors=0010)。如果你看不懂其中的程式碼，或是你對其中的語法不熟，請不要擔心！這份指南的目的就是要幫助你了解 React 及其語法。
+
+我們建議你在往下看這份指南之前，先看看上面這個圈圈叉叉小遊戲。你會注意到遊戲格子的右邊有一個數字列表。這個列表將會列出遊戲中的所有動作的歷史，並在遊戲進行的同時更新。
+
+當你稍微了解這個圈圈叉叉小遊戲是怎麼玩的之後，你就可以把它關掉了。在這份指南中，我們會從更簡單的模板開始。我們的下一步是進行設定以幫助你開始開發這個遊戲。
+
+### 先決條件
+
+我們假設你對 HTML 和 JavaScript 有一定的熟悉度，但即使你的背景是另一種程式語言，你應該也能游刃有餘地理解這份指南。我們也假設你對程式語言的中的某些概念，如 function、object、array 以及（某種程度上）class，有一定的涉獵。
+
+如果你需要複習 JavaScript，我們建議你閱讀這份[教學指南](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)。請注意我們也會用到一些 ES6，也就是 JavaScript 最新的版本之一。在這份指南中，我們將會使用 [arrow function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)、[class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)、[let](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)，和 [const](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const) 等表達式。你也可以用 [Babel REPL](https://babeljs.io/repl/#?presets=react&code_lz=MYewdgzgLgBApgGzgWzmWBeGAeAFgRgD4AJRBEAGhgHcQAnBAEwEJsB6AwgbgChRJY_KAEMAlmDh0YWRiGABXVOgB0AczhQAokiVQAQgE8AkowAUAcjogQUcwEpeAJTjDgUACIB5ALLK6aRklTRBQ0KCohMQk6Bx4gA) 看看 ES6 的程式碼是如何被編譯的。
