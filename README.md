@@ -8,6 +8,10 @@ A blog built with Next.js, Tailwind
 
 https://youtube.com/小康
 
+## Demo
+
+https://yt-nextjs-blog.vercel.app
+
 ## Running Locally
 
 ```bash
