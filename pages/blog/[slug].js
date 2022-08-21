@@ -1,5 +1,5 @@
 import { allSlugs, formatSlug, getPostBySlug } from "../../lib/mdx";
-import { formatDate } from "../../lib/formateDate";
+import { formatDate } from "../../lib/formatDate";
 import { MDXRemote } from "next-mdx-remote";
 
 export default function Blog({ post }) {
