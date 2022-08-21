@@ -8,7 +8,7 @@ A blog built with Next.js, Tailwind
 
 ## Demo
 
-https://nextjs-mdx-blog.vercel.app
+https://hong-nextjs-mdx-blog.vercel.app
 
 ## Running Locally
 
