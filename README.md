@@ -6,8 +6,6 @@ A blog built with Next.js, Tailwind
 - Styling: [Tailwind CSS](https://tailwindcss.com/)
 - Content: [MDX](https://mdxjs.com/)
 
-https://youtube.com/小康
-
 ## Demo
 
 https://nextjs-mdx-blog.vercel.app
