@@ -1,4 +1,6 @@
-## YouTube Tutorial
+## Blog post Tutorial
+
+[Blog post](https://honghong.me/blog/how-to-build-a-blog-with-nextjs-and-mdx)
 
 A blog built with Next.js, Tailwind
 
