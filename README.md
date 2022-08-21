@@ -10,13 +10,13 @@ https://youtube.com/小康
 
 ## Demo
 
-https://yt-nextjs-blog.vercel.app
+https://nextjs-mdx-blog.vercel.app
 
 ## Running Locally
 
 ```bash
-$ git clone https://github.com/tszhong0411/yt-nextjs-blog.git
-$ cd yt-nextjs-blog
+$ git clone https://github.com/tszhong0411/nextjs-mdx-blog.git
+$ cd nextjs-mdx-blog
 $ yarn
 $ yarn dev
 ```
