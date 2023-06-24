@@ -15,7 +15,7 @@ https://hong-nextjs-mdx-blog.vercel.app
 ## Running Locally
 
 ```bash
-$ git clone https://github.com/tszhong0411/nextjs-mdx-blog.git
+$ git clone https://github.com/codewithhong/nextjs-mdx-blog.git
 $ cd nextjs-mdx-blog
 $ yarn
 $ yarn dev
