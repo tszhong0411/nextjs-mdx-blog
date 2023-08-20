@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { getAllPosts } from "../lib/mdx";
-import { formatDate } from "../lib/formatDate";
+import { formatDate } from "../lib/format-date";
 
 export default function Home({ posts }) {
   return (

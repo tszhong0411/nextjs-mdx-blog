@@ -1,5 +1,5 @@
 import { allSlugs, formatSlug, getPostBySlug } from "../../lib/mdx";
-import { formatDate } from "../../lib/formatDate";
+import { formatDate } from "../../lib/format-date";
 import { MDXRemote } from "next-mdx-remote";
 
 export default function Blog({ post }) {
@@ -12,7 +12,7 @@ export default function Blog({ post }) {
         {formatDate(date)}
       </time>
       <hr className="my-8" />
-      <article className="prose">
+      <article className="prose max-w-none">
         <MDXRemote {...post.source} />
       </article>
     </div>
